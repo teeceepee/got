@@ -17,8 +17,11 @@ docker build . -t teeceepee/got
 ## Run
 
 ```
-docker run teeceepee/got
-# => Hello, docker.
+./run.sh
+```
+or
+```
+docker run -p 8910:8910 teeceepee/got
 ```
 
 ## Reference
